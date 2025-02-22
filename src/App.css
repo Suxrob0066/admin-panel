@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+    --bg-color:rgba(187, 124, 41, 0.767);
+}
+
+.ant-btn{
+    background-color: var(--bg-color) !important;
+}
+
+.ant-scroll-number{
+    background-color: var(--bg-color) !important ;
+}
+.ant-menu-item-selected{
+    background-color: var(--bg-color) !important;
+}
+.ant-spin-dot-holder{
+    color: #001529 !important;
+}
+.deleteBtn{
+    background-color: red !important;
+}
+.updateBtn{
+    background-color: blue !important;
+}
